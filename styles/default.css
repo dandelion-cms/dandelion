@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+body {
+  text-align: center;
+  background-color: #F5F8FA;
+}
+
+header {
+  padding: 30px;
+}
+
+#contents {
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  background-color: #fefefe;
+}
+
+footer {
+  padding: 30px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, pre, blockquote {
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+#main-contents h1 {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#main-contents h2,
+#main-contents h3,
+#main-contents h4,
+#main-contents h5,
+#main-contents h6 {
+  padding-top: 20px;
+}
+
+#sidebar h2,
+#sidebar h3,
+#sidebar h4,
+#sidebar h5,
+#sidebar h6 {
+  padding-bottom: 8px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 17px; font-weight: bold; }
+h6 { font-size: 16px; font-weight: bold; }
+
+a { font-size: inherit; }
+
+a:link, a:visited { color: #4078C0; text-decoration: none; }
+a:hover, a:active { color: #4078C0; text-decoration: underline; }
+
+code {
+  padding:1px 2px;
+  font-family: "Droid Sans Mono", monospace;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  background-color: #f0f0f0;
+  border: 1px solid #e8e8e8;
+}
+
+pre {
+  padding: 10px 10px 10px 0px;
+  font-family: "Droid Sans Mono", monospace;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+  background-color: #f9f9f9;
+  border: 1px solid #e8e8e8;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+blockquote {
+  padding: 15px;
+  font-style: italic;
+  color: #666;
+  background-color: #f2f9fc;
+  border: 1px solid #d0e0f6;
+  border-radius: 5px;
+}
+
+#all {
+  width: 980px;
+  margin: 0px auto;
+  text-align: left;
+}
+
+#main-contents {
+  width: 640px;
+  float: left;
+}
+
+#main-contents ul,
+#main-contents ol {
+  margin-left: 30px;
+}
+
+#sidebar {
+  margin-left: 670px;
+}
+
+small, small em { font-size: 11px; }
+
+.cleaner {
+  clear: both;
+}
